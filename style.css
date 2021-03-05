@@ -1,0 +1,17 @@
+body {
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #b61aae;
+}
+
+#skills {
+  background-color: #b61aae;
+}
+
+section {
+  padding-top: 5rem;
+}
