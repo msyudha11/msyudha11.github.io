@@ -8,13 +8,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" /> -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- AOS JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>M Sandy Yudha || Web Portfolio</title>
   </head>
   <body id="home">
+    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top" style="background-color: #590d82">
       <div class="container">
@@ -59,7 +63,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -72,9 +76,6 @@
               sedang mempelajari tentang Front End Developer.
             </p>
           </div>
-          <!-- <div class="col-md">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magnam sequi in soluta nostrum cumque necessitatibus exercitationem expedita consequuntur earum. Nulla ullam sint perferendis quidem?</p>
-          </div> -->
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -89,7 +90,7 @@
 
     <!-- Projects -->
     <section id="skills">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
         <div class="row text-center mb-3">
           <div class="col">
             <h2 style="color: white">Skills</h2>
@@ -120,22 +121,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-3 mb-3">
-            <div class="card">
-              <img src="img/photo/rjs.png" class="card-img-top" alt="Projects 4" />
-              <div class="card-body">
-                <p class="card-text text-center">React JS</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/photo/5.jpg" class="card-img-top" alt="Projects 5" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -150,7 +135,7 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
@@ -204,6 +189,12 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxvUOYudOBNM0DRR8PHAGKKtbXRRZrNI81xOg_lxSnrz60wRTH6nLIG_bZRavbfgyGIFw/exec";
       const form = document.forms["submit-to-google-sheet"];
