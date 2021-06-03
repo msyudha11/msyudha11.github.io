@@ -8,7 +8,16 @@ body {
   background-color: #b61aae;
 }
 
+.jumbotron a {
+  margin: 5px;
+}
+
 #skills {
+  background-color: #b61aae;
+}
+
+#contact {
+  color: white;
   background-color: #b61aae;
 }
 
